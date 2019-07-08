@@ -28,6 +28,7 @@ I will be creating a lineup optimizer for daily fantasy sports (DFS). DFS is a h
 - rails backend
 - great design 
 - display a lineup that meets restrictions
+- preloaded players with ability to filter by position
 
 #### PostMVP 
 
