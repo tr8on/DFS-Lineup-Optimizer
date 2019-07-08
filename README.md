@@ -61,6 +61,8 @@ I will be creating a lineup optimizer for daily fantasy sports (DFS). DFS is a h
 | Home page | This will render the home page | 
 | Add players | This will render players while you add them | 
 | Lineup | This will render an optimized lineup | 
+| View Lineups | This will render all the existing lineups user created | 
+
 
 
 
