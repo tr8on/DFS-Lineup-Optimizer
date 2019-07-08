@@ -34,6 +34,7 @@ I will be creating a lineup optimizer for daily fantasy sports (DFS). DFS is a h
 - use a sorting algorthim to create a lineup
 - animation heavy
 - AWS 
+- auth
 
 #### Timeframe
 | Component | Priority | Estimated Time | Actual Time |
