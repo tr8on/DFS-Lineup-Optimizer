@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  salary: 1
+  pg: 1
+  sg: 1
+  sf: 1
+  pf: 1
+  c: 1
+  g: 1
+  f: 1
+  util: 1
+
+two:
+  salary: 1
+  pg: 1
+  sg: 1
+  sf: 1
+  pf: 1
+  c: 1
+  g: 1
+  f: 1
+  util: 1
