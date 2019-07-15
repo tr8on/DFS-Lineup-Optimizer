@@ -1,0 +1,26 @@
+{
+  "name": "dfs_app",
+  "version": "1.0.0",
+  "description": "## Project Schedule",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "nba.js": "^0.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd client && npm install && npm run build && cd ..",
+    "deploy": "cp -a client/build/. public/",
+    "postinstall": "npm run build && npm run deploy && echo 'Client built!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/Amro/dfs-LU-Optimizer-"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

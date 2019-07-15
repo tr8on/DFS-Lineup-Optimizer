@@ -37,7 +37,7 @@ class PlayerSelect extends Component {
   
   async postDelete(id) {
     console.log(id);
-    await axios.delete(`http://localhost:3000/fav_players/${id}`);
+    await axios.delete(`/fav_players/${id}`);
   }
   handlePos(evt) {
     this.setState({
@@ -52,7 +52,7 @@ class PlayerSelect extends Component {
   }
   async postPlayer(event) {
     event.preventDefault();
-    await axios.post("http://localhost:3000/fav_players", {
+    await axios.post("/fav_players", {
       firstname: this.state.firstName,
       lastname: this.state.lastName,
       salary: this.state.playerPrice,
@@ -62,7 +62,7 @@ class PlayerSelect extends Component {
   }
   async componentDidMount() {
     const axiosFavsCopy = [];
-    await axios.get("http://localhost:3000/fav_players").then(res => {
+    await axios.get("/fav_players").then(res => {
       axiosFavsCopy.push(res.data);
       this.setState({
         axiosFavs: axiosFavsCopy[0]
@@ -100,7 +100,7 @@ class PlayerSelect extends Component {
 
   async componentDidUpdate() {
     const axiosFavsCopy = [];
-    await axios.get("http://localhost:3000/fav_players").then(res => {
+    await axios.get("/fav_players").then(res => {
       axiosFavsCopy.push(res.data);
       this.setState({
         axiosFavs: axiosFavsCopy[0]

@@ -23,7 +23,7 @@ class Lineup extends Component {
   }
   async componentDidMount() {
     const axiosFavsCopy = [];
-    await axios.get("http://localhost:3000/fav_players").then(res => {
+    await axios.get("/fav_players").then(res => {
       axiosFavsCopy.push(res.data);
       this.setState({
         axiosFavs: axiosFavsCopy[0]
