@@ -1,0 +1,123 @@
+nav ul{
+  height:200px; 
+  width:18%;
+  overflow:hidden; 
+  overflow-y:scroll;
+  border: solid black;
+}
+
+.search-players{
+  border: 1px solid black;
+  
+}
+
+.added-player{
+  border: 2px solid black;
+  
+}
+
+
+.player{
+  border: 2px solid black;
+  width: 300px;
+ 
+}
+.Row{
+    width: 100%;
+    border-spacing: 10px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.ind-player{
+ 
+}
+.search-players{
+  display: table-cell;
+  background-color: rgba(104, 100, 100, 0.76);  
+  width: 300px;
+font: white;
+}
+.players-pic{
+  
+background-color: rgba(68, 65, 65, 0.726);
+  
+}
+.player{
+  display: table-cell;
+  background: rgba(158, 148, 9, 0.836);
+
+}
+.home-pg{
+  background-image: url("kiwi.webp");
+  background-size: 100%;
+}
+.add{
+  background-image: url("nba.jpg");
+  background-size: 100%;
+  height: 1000px;
+}
+.content{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  /* background-color: rgba(196, 196, 196, 0.425); */
+  margin: 0;
+  text-align: center;
+}
+.home-title{
+ 
+  height: 800px; 
+  width: 400px;
+  padding: 25px;
+  box-sizing: border-box;
+  background: rgba(242, 194, 2, 0.523);
+text-align: center;}
+.text{
+  background: rgba(242, 194, 2, 0.523);
+
+}
+.lu-table{
+  border: 1px solid black;
+  display: inline-block;
+ 
+  position: absolute;
+  left: 43%;
+  margin-left: -50px;
+  background-color: rgba(146, 144, 144, 0.808);
+
+}
+.lutext{
+  text-align: center;
+  color: white;
+}
+.lubody{
+  background-image:url(nba2.jpg);
+
+  background-repeat:no-repeat;
+
+  background-size:cover;
+}
+.lucontent{
+  display: inline;
+  
+}
+.table-div{
+  display: inline;
+  background-image:url(nba2.jpg);
+
+  background-repeat:no-repeat;
+
+  background-size:cover;
+}
+@import url(https://fonts.googleapis.com/css?family=lobster);
+
+.home-head{
+  font-family: 'Lobster', cursive;
+  margin-top:150px;
+  font-size: 75px;
+}
+.home-title{
+ 
+}

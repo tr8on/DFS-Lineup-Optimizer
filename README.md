@@ -36,7 +36,7 @@ I will be creating a lineup optimizer for daily fantasy sports (DFS). DFS is a h
 - animation heavy
 - AWS 
 - auth
--player projections
+- player projections
 
 #### Timeframe
 | Component | Priority | Estimated Time | Actual Time |
