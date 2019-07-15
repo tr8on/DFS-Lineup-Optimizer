@@ -7,11 +7,11 @@
 |---|---| ---|
 |Day 1| Project Description | complete
 |Day 2| Wireframes / Priority Matrix / Functional Components | complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| Pseudocode / actual code | Incomplete
-|Day 5| Initial Clickable Model  | Incomplete
-|Day 6| MVP | Incomplete
-|Day 7| Present | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | complete
+|Day 4| Pseudocode / actual code | complete
+|Day 5| Initial Clickable Model  | complete
+|Day 6| MVP | complete
+|Day 7| Present | complete
 
 
 ## Project Description
@@ -41,17 +41,17 @@ I will be creating a lineup optimizer for daily fantasy sports (DFS). DFS is a h
 #### Timeframe
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
-| Setup Project3 Repo/Folders/Files | H | 1hrs|  |
-| Creation of Lineup and Player Tables | H | 5hrs|  |
-| Test CRUD using Postman | H | 30min|  |
-| Debug backend | H | 2hrs|  |
-| Functional Home page | H | 1hrs|  |
-| Add players | H | 5hrs|  |
-| Lineup | H | 10 hrs|  |
-| About page | H | 1hrs|  |
-| Styling | H | 8hrs|   |
-| Deployment | H | 2hr|  |
-| Total | H | 35hrs|  | 
+| Setup Project3 Repo/Folders/Files | H | 1hrs| 1hr |
+| Creation of Lineup and Player Tables | H | 5hrs| 6hrs |
+| Test CRUD using Postman | H | 30min| 1hr |
+| Debug backend | H | 2hrs|  1hr|
+| Functional Home page | H | 1hrs| 30min  |
+| Add players | H | 5hrs| 6hrs |
+| Lineup | H | 10 hrs| 4hrs |
+| About page | H | 1hrs| na |
+| Styling | H | 8hrs| 6hrs  |
+| Deployment | H | 2hr| na |
+| Total | H | 35hrs| 38hrs | 
 
 
 
