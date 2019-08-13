@@ -4,7 +4,7 @@ import axios from "axios";
 import nba from "nba.js";
 import cors from "cors";
 import "../App.css";
-import Lineup from './lineup'
+import Lineup from "./lineup";
 
 class PlayerSelect extends Component {
   constructor(props) {
@@ -34,7 +34,7 @@ class PlayerSelect extends Component {
     this.handlePos = this.handlePos.bind(this);
     this.postDelete = this.postDelete.bind(this);
   }
-  
+
   async postDelete(id) {
     console.log(id);
     await axios.delete(`/fav_players/${id}`);
@@ -143,28 +143,32 @@ class PlayerSelect extends Component {
         <body className="body">
           <div>
             <div className="content">
-                <div className='text'>
-              <h1>
-                Add players you want to use in tonights slate and we'll create
-                an optimized lineup
-              </h1>
-              <p>
-                Make sure you add at least 8 players and their positions match
-                salary and positional requirements{" "}
-              </p>
-              <h3> Fav Players </h3>
-              <Link to="/lineup" > 
-             <button onClick={this.genLU} lineup={this.props.lineup}> generate lineup </button> </Link>
-              <h3 className="h3">Add Players:</h3>
-              <form onChange={this.onChange} onSubmit={this.onSubmit}>
-                <input
-                  className="Search-Field"
-                  type="textarea"
-                  name="playerName"
-                  placeholder="enter player name"
-                  value={this.state.playerName}
-                />
-              </form>
+              <div className="text">
+                <h1>
+                  Add players you want to use in tonights slate and we'll create
+                  an optimized lineup
+                </h1>
+                <p>
+                  Make sure you add at least 8 players and their positions match
+                  salary and positional requirements{" "}
+                </p>
+                <h3> Fav Players </h3>
+                <Link to="/lineup">
+                  <button onClick={this.genLU} lineup={this.props.lineup}>
+                    {" "}
+                    generate lineup{" "}
+                  </button>{" "}
+                </Link>
+                <h3 className="h3">Add Players:</h3>
+                <form onChange={this.onChange} onSubmit={this.onSubmit}>
+                  <input
+                    className="Search-Field"
+                    type="textarea"
+                    name="playerName"
+                    placeholder="enter player name"
+                    value={this.state.playerName}
+                  />
+                </form>
               </div>
               <div className="Row">
                 <div className="search-players">
